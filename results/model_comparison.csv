@@ -1,0 +1,6 @@
+model,balanced_accuracy,f1_macro,recall,roc_auc
+EEGNet,0.797,0.797,0.755,0.851
+RandomForest,0.721,0.721,0.703,0.789
+SVM-RBF,0.69,0.69,0.667,0.755
+LogisticRegression,0.667,0.666,0.625,0.754
+LDA,0.568,0.566,0.505,0.569

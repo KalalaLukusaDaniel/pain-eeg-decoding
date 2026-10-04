@@ -1,0 +1,82 @@
+{
+  "LogisticRegression": {
+    "balanced_accuracy": 0.6666666666666667,
+    "f1_macro": 0.6660869565217391,
+    "recall": 0.625,
+    "roc_auc": 0.7543674045138888,
+    "confusion_matrix": [
+      [
+        136,
+        56
+      ],
+      [
+        72,
+        120
+      ]
+    ]
+  },
+  "LDA": {
+    "balanced_accuracy": 0.5677083333333334,
+    "f1_macro": 0.5660130718954248,
+    "recall": 0.5052083333333334,
+    "roc_auc": 0.5690104166666666,
+    "confusion_matrix": [
+      [
+        121,
+        71
+      ],
+      [
+        95,
+        97
+      ]
+    ]
+  },
+  "SVM-RBF": {
+    "balanced_accuracy": 0.6901041666666666,
+    "f1_macro": 0.6899338422391857,
+    "recall": 0.6666666666666666,
+    "roc_auc": 0.7550726996527777,
+    "confusion_matrix": [
+      [
+        137,
+        55
+      ],
+      [
+        64,
+        128
+      ]
+    ]
+  },
+  "RandomForest": {
+    "balanced_accuracy": 0.7213541666666667,
+    "f1_macro": 0.7212615411751138,
+    "recall": 0.703125,
+    "roc_auc": 0.7887234157986112,
+    "confusion_matrix": [
+      [
+        142,
+        50
+      ],
+      [
+        57,
+        135
+      ]
+    ]
+  },
+  "EEGNet": {
+    "balanced_accuracy": 0.796875,
+    "f1_macro": 0.7965217391304348,
+    "recall": 0.7552083333333334,
+    "roc_auc": 0.8511555989583333,
+    "confusion_matrix": [
+      [
+        161,
+        31
+      ],
+      [
+        47,
+        145
+      ]
+    ]
+  }
+}
